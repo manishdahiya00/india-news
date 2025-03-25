@@ -12,7 +12,7 @@ const App = () => {
   const fetchApiData = async () => {
     try {
       const response = await fetch(
-        "https://newsdata.io/api/1/news?apikey=pub_251970508930c142b0e38e6a3f099c43d75e0&q=market&country=in&language=en"
+        "https://newsdata.io/api/1/news?apikey=************************&q=market&country=in&language=en"
       );
       const data = await response.json();
       setApiData(data.results);
